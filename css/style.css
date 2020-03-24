@@ -86,9 +86,20 @@ main nav.secondary-menu ul li {
   width: 150px;
   background-color: rgb(110, 110, 110);
   border: 1px solid black;
+  transition: all 0.5s;
+}
+main nav.secondary-menu ul li:hover {
+  background-color: rgb(172, 172, 172);
+  color: black;
+  border-radius: 10px;
+  transition: all 0.5s;
 }
 section {
   text-align: right;
+  padding-bottom: 40px;
+}
+#demons {
+  padding-bottom: 100px;
 }
 section figure {
   float: left;
@@ -99,12 +110,6 @@ section.img-section figure img {
 }
 section.img-mutant figure img {
   width: 200px;
-}
-.disable {
-  display: none;
-}
-.visible {
-  display: block;
 }
 footer {
   position: fixed;
