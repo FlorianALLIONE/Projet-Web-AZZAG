@@ -1,5 +1,5 @@
 body {
-  background-image: url(/img/tunnel.jpg);
+  background-image: url(../img/tunnel.jpg);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -107,7 +107,7 @@ section.img-mutant figure img {
   display: block;
 }
 footer {
-  position: static;
+  position: fixed;
   left: 0;
   right: 0;
   bottom: 0;
